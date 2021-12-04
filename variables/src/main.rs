@@ -4,8 +4,14 @@ fn main() {
     par une lettre ou un _ mais pas par un chiffre.
     Les chiffres sont autorisés dans le nom de la variable.
     */
-    let age;
-    age = 40;
+
+    // let age = 40;
+
+    // Par defaut, les variables sont imutables !
+    // Pour lui donner la mutabilité, il faut ajouter mut
+    // -> let mut age = 40;
+    let mut age = 20;
+    age = age + 1;
     if age > 30 {
         println! ("Hello les vieux, vous avez {} ans", age);
     } else {
