@@ -17,4 +17,9 @@ fn main() {
     } else {
         println! ("Hello les jeunes, vous avez {} ans", age);
     }
+    // shadowing :
+    // let age = age + 1;
+    // (permet de changer le type de la variable)
+    let age = "20";
+    println! ("Vous avez maintenant {} ans", age);
 }

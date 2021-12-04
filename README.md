@@ -17,3 +17,4 @@ De plus en Français !
     - cargo new hello_world
     - Extensions VsCode: Rust & better Toml
     - `cargo new variables ` pour la première expériences
+    - Mutabilité et Shadowing
