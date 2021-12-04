@@ -16,3 +16,4 @@ De plus en Français !
     - On démarre avec un "cargo new `nom_du_projet`" (sans les " ni les `, et forcément en camel_case).
     - cargo new hello_world
     - Extensions VsCode: Rust & better Toml
+    - `cargo new variables ` pour la première expériences
